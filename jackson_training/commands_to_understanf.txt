@@ -1,0 +1,17 @@
+To run server
+1.python managage.py runserver
+
+To peek into databases changes and SQL
+1.python manage.py sqlmigrate <appname> 0001
+2 python manage.py makemigrations <appname>
+
+To create databases
+1.python manage.py migrate
+
+To create superadmin
+1.python manage.py createsuperuser
+
+
+To compose docker
+docker-compose build -> build
+docker-compose up -> to run
